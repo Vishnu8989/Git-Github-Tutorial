@@ -1,5 +1,5 @@
 * {
-    font-family: 'PT Sans Narrow', 'Segoe UI';
+    font-family: "PT Sans Narrow", "Segoe UI";
     font-size: 20px;
     box-sizing: border-box;
 }
@@ -23,12 +23,11 @@ body {
     color: orange;
     border: 10px solid orange;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 200px 200px;
     grid-auto-rows: 200px;
-    grid-auto-columns: 200px;
+    grid-auto-columns: 1fr;
     grid-row-gap: 30px;
     grid-column-gap: 30px;
+    grid-template: "ar1 ar1 ar2 arr5" 100px "ar4 ar3 . ar5" 400px "ar6 ar6 ar6 arr6" 100px/15% 4fr 1fr 10%;
 }
 
 .grid-item {
@@ -38,15 +37,25 @@ body {
 }
 
 .item1 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    grid-area: ar1;
 }
 
 .item2 {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 4;
+    grid-area: ar2;
+}
+
+.item3 {
+    grid-area: ar3;
+}
+
+.item4 {
+    grid-area: ar4;
+}
+
+.item5 {
+    grid-area: ar5;
+}
+
+.item6 {
+    grid-area: ar6;
 }
