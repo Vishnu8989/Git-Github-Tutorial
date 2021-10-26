@@ -85,10 +85,14 @@ body {
 }
 
 .page_5_header {
-    padding: 20px;
     margin: 20px;
-    color: red;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: crimson;
+    font-family: cursive;
+    font-weight: 1000;
+    text-decoration: underline dotted;
 }
 
 .grid_images {
@@ -133,28 +137,28 @@ body {
 
 @keyframes appear_from_left {
     0% {
-        transform: translate(-500%, 0%)
+        transform: translate(-500%, 0%);
     }
     100% {
-        transform: translate(0%, 0%)
+        transform: translate(0%, 0%);
     }
 }
 
 @keyframes appear_from_right {
     0% {
-        transform: translate(500%, 0%)
+        transform: translate(500%, 0%);
     }
     100% {
-        transform: translate(0%, 0%)
+        transform: translate(0%, 0%);
     }
 }
 
 @keyframes appear_from_bottom {
     0% {
-        transform: translate(0, 500%)
+        transform: translate(0, 500%);
     }
     100% {
-        transform: translate(0%, 0%)
+        transform: translate(0%, 0%);
     }
 }
 
