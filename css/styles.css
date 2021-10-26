@@ -62,11 +62,11 @@ body {
 }
 
 .item3 {
-    animation: appear_from_bottom .5s forwards;
+    animation: appear_from_left .5s forwards;
 }
 
 .item4 {
-    animation: appear_from_bottom .5s forwards;
+    animation: appear_from_right .5s forwards;
 }
 
 .item5 {
@@ -121,7 +121,7 @@ body {
 }
 
 .image_c {
-    animation: appear 6s forwards;
+    /* animation: appear 6s forwards; */
 }
 
 .image_r {
@@ -153,9 +153,9 @@ body {
     }
 }
 
-@keyframes appear_from_bottom {
+@keyframes appear_from_top {
     0% {
-        transform: translate(0, 500%);
+        transform: translate(0, -500%);
     }
     100% {
         transform: translate(0%, 0%);
