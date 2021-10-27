@@ -120,9 +120,10 @@ body {
     animation: appear_from_left 3s forwards;
 }
 
-.image_c {
-    /* animation: appear 6s forwards; */
-}
+
+/* .image_c {
+    animation: appear 6s forwards;
+} */
 
 .image_r {
     animation: appear_from_right 3s forwards;
