@@ -1,6 +1,6 @@
 * {
     font-family: "PT Sans Narrow", "Segoe UI";
-    font-size: 5px;
+    font-size: 10px;
     box-sizing: border-box;
 }
 
@@ -11,7 +11,7 @@ a {
 }
 
 body {
-    background-color: #ff9472;
+    background-color: antiquewhite;
     margin: 0px;
 }
 
@@ -75,6 +75,30 @@ body {
 
 .item6 {
     animation: appear_from_right .5s forwards;
+}
+
+.intro {
+    display: grid;
+    justify-content: space-evenly;
+    align-content: space-around;
+    grid-template-columns: .7fr .3fr;
+    grid-template-rows: 250px;
+    margin: 50px
+}
+
+.img-1 {
+    height: 100%;
+    width: 100%;
+}
+
+.grid-item-1 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 900px;
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+    padding-top: 55px;
+    line-height: 30px;
 }
 
 
